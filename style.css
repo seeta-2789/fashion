@@ -438,69 +438,48 @@ h3{
   display: block;
 
   }
-  @media (max-width:991px){
     .contan{
       padding: 1rem;
     }
-    @media (max-width:991px){
       .hero{
         right: 3.5rem;
       }
+    }
       @media (max-width:991px){
         .panttext{
           margin: 2rem 4rem;
-
         }
-      }  
-      @media (max-width:991px){
-        .panttext h2{
+         .panttext h2{
           font-size: 1.7rem;
         }
-      }  
-      @media (max-width:991px){
-        .panttext p{
-font-size: 0.9rem;
+         .panttext p{
+           font-size: 0.9rem;
         }
       }  
       @media (max-width:991px){
         .btn-pant{
           padding: 0.5rem 1.5rem;
-
         }
-      }  
-      @media (max-width:991px){
         .polo{
           display: block;
-
-        }
-      }  
-      @media (max-width:991px){
+        } 
         .hero-btn{
          right:18rem; 
         }
-      } 
+      }
       @media (max-width:991px){
         .card{
           margin: 1rem;
         }
        }
-     
-   
-    }
-}
-    }
    
        @media (max-width:689px){
         .hero-btn{
           right: 9rem;
         }
-       }
-       @media (max-width:689px){
         .company{
           display: block;
         }
-       }
-       @media (max-width:689px){
         .company1{
           margin: 1rem 2.5rem;
           text-align: center;
@@ -510,16 +489,10 @@ font-size: 0.9rem;
         .card{
           margin: 1rem;
         }
-       }
-       @media (max-width:689px){
         .onemore{
           display: block;
-         
         }
-       }
-       
-       @media (max-width:689px){
-        .fashion{
+       .fashion{
           width: 60%;
           margin-left: 8rem;
         }
@@ -527,19 +500,12 @@ font-size: 0.9rem;
        @media (max-width:689px){
         .shopping{
           display: block;
-         
         }
-       }
-       
-       @media (max-width:689px){
-        .shop{
+         .shop{
           width: 60%;
           margin-left: 8rem;
-         
         }
-       }
-       @media (max-width:689px){
-        .pants{
+          .pants{
           display: block;
          
         }
