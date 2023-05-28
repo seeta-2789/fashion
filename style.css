@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
+}
+*{
+  font-family: 'Nunito' sans-serif;
+  margin: 0;padding: 0;
+  text-decoration: none;
+  outline: 0;border: 0;
+  box-sizing: border-box;
+
+}
+.wrapper{
+    background-color: #107fa8;
+    padding: 0.7rem 7%;
+    text-align: center;
+    justify-content: center;
+}
+h6{
+    font-size: 0.9rem;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+}
+header{
+    background-color:#fff;
+    padding: 0.5rem 7%;
+display: flex;
+    text-align: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+
+ .navbar a{
+    font-size: 0.9rem;
+    padding: .3rem 0.7rem;
+    color:#282727;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    
+  }
+  /* --------------------------------------------------- */
+
+  .container{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+  }
+  .main-con1{
+    position: relative;
+    text-align: center;
+    color:#fff ;
+
+  }
+  .hero{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 1.5px solid #fff;
+    font-size: 1rem;
+    padding: 0.3rem 1.8rem;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+
+  }
+  .hero:hover{
+    color: #282727;
+    background: #fff;
+  }
+  .contan{
+    display: block;
+    overflow: hidden;
+  }
+
+  .main-con2{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color:#fff ;
+    padding-left: 1rem;
+
+  }
+  .hero1{
+    position: absolute;
+    top: 1.3rem;
+    left: 1.5rem;
+    border: 1.5px solid #fff;
+    font-size: 1rem;
+    padding: 0.3rem 1.8rem;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-left: 1.5rem;
+    
+
+  }
+  .hero1:hover{
+    color: #282727;
+    background: #fff;
+  }
+  .main-con3{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color:#fff ;
+    padding: 1rem;
+    margin-left:0.5rem;
+    
+
+  }
+  .hero2{
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    border: 1.5px solid #fff;
+    font-size: 1rem;
+    padding: 0.3rem 1.8rem;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-left: 1rem;
+
+
+  }
+  .hero2:hover{
+    color: #282727;
+    background: #fff;
+  }
+ .bg-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/img7.webp");
+   width: 100%;
+   height: 60vh;
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+ }
+.bg-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-family: Montserrat, sans-serif;
+
+  
+}
+.bg-text h1{
+  font-weight: normal;
+  text-decoration: none;
+  padding: 1rem;
+}
+.bg-text p{
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  color: #fff;
+}
+.bg-text button{
+  padding: 0.5rem 5rem;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3rem;
+  font-weight: 500;
+}
+.bg-text button:hover{
+  background-color: #555;
+  color: white;
+}
+h2{
+  font-size: 2rem;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  margin: 5rem 3.3rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.onemore{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem 2rem 0;
+}
+.fashion{
+  width: 30%;
+  padding: 1rem 1rem;
+}
+.fashion img {
+  width: 100%;
+  height: 29rem;
+  background-size: cover;
+}
+.text{
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: gray;
+  padding: 0.4rem 1rem;
+
+ 
+}
+.paisa{
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.fashion:hover{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.polo{
+  display: flex;
+}
+.polohii{
+  display: block;
+}
+.polo1{
+  width: 100%;
+  position: relative;
+  color:#fff ;
+padding: 1rem 3rem;
+}
+.hero-btn{
+  position: absolute;
+    top: 2rem;
+    right: 4rem;
+    border: 1.8px solid #fff;
+    font-size: 1.1rem;
+    padding: 0.3rem 1.7rem;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+}
+.hero-btn:hover{
+  color: #282727;
+  background: #fff;
+}
+.polo2{
+  width: 100%;
+  position: relative;
+  color: #fff;
+  padding: 1rem 3rem;
+}
+.polo4{
+  width: 100%;
+  color: #fff;
+  padding: 1rem 3rem;
+  position: relative;
+}
+.hero-btn1{
+  position: absolute;
+    top: 2rem;
+    left: 3rem;
+    border: 1.8px solid #fff;
+    font-size: 1.1rem;
+    padding: 0.3rem 1.8rem;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-left: 1.5rem;
+}
+.hero-btn1:hover{
+  color: #282727;
+  background-color: #fff;
+}
+/* ------------------------------------------------------------------ */
+
+h2{
+  font-size: 2rem;
+  font-family: Montserrat, sans-serif;
+  text-transform: capitalize;
+  margin: 5rem 3.3rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.shopping{
+  width: 100%;
+  display: flex;
+  padding: 1rem 2rem;
+}
+.shop{
+  width: 30%;
+  padding: 1rem 1.5rem;
+}
+.shop img{
+  width: 100%;
+  background-size: cover;
+}
+.shoptext{
+  text-align: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: gray;
+  padding: 0.4rem 1rem;
+  text-transform: capitalize;
+
+}
+.shop:hover{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* ------------------------------------------------------------------------------ */
+.pants{
+  display: flex;
+  padding: 2rem 3rem;
+}
+.panttext{
+  text-align: center;
+  margin: 7rem 8rem;
+}
+.panttext h2{
+  font-size: 2.2rem;
+  
+}
+.panttext p{
+  color: gray;
+  font-size: 1rem;
+}
+.btn-pant{
+  padding: 0.5rem 2.5rem;
+  color: #fff;
+  background-color:black;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3rem;
+  font-weight:bold;
+  
+}
+.blazer{
+  display: flex;
+  padding: 2rem 3rem;
+
+}
+/* ----------------------------------------------------------------------- */
+
+.join{
+  text-align: center;
+  justify-content: center;
+}
+.icons{
+  font-size: 2.5rem;
+}
+/* ----------------------------------------------------------------------------------- */
+
+.company{
+  display: flex;
+  width: 100%;
+  text-transform: capitalize;
+}
+.company1{
+  margin: 1rem 4.5rem;
+}
+.company1 h5{
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+.company1 h6{
+  color: gray;
+}
+.company1 p{
+  color: gray;
+  font-size: 0.9rem;
+}
+.new{
+  font-size: 0.7rem;
+  color: gray;
+  margin: 0.5rem;
+}
+.email{
+  font-size: 0.7rem;
+  color: gray;
+  margin-top: 1rem;
+}
+.text-btn{
+    width: 100%;
+    height: 30px;
+    border-radius: 18px;
+    font-size: 14px;
+    color: #9a9a9a;
+    padding: 0 35px 0 18px;
+    border: 1px solid #d7dbdb;
+    text-align: left;
+}
+/* ------------------------------------------------------------------------------- */
+.lastpage{
+  width: 100%;
+  background-color:#f3f6f6;
+  text-transform: capitalize;
+  text-align: left;
+}
+.lastpage h3{
+  font-size: 1.7rem;
+  color: #000;
+  margin: 1rem 2.5rem;
+
+}
+.lastpage p{
+  font-size: 14px;
+  color: gray;
+  margin: 1rem 2.5rem;
+
+}
+/* ------------------------------------------------------------------------------------------------- */
+.card{
+  padding: 1rem 1.5rem;
+  font-family: Montserrat, sans-serif;
+
+}
+h3{
+  text-transform: capitalize;
+
+}
+
+.title{
+  color: gray;
+
+}
+.button{
+  border: none;
+  outline: 0;
+  padding: 0.5rem;
+  color:#fff ;
+  background-color: #000;
+  cursor: pointer;
+  width: 100%;
+
+}
+.card:hover{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width:991px){
+ .container{
+  display: block;
+
+  }
+  @media (max-width:991px){
+    .contan{
+      padding: 1rem;
+    }
+    @media (max-width:991px){
+      .hero{
+        right: 3.5rem;
+      }
+      @media (max-width:991px){
+        .panttext{
+          margin: 2rem 4rem;
+
+        }
+      }  
+      @media (max-width:991px){
+        .panttext h2{
+          font-size: 1.7rem;
+        }
+      }  
+      @media (max-width:991px){
+        .panttext p{
+font-size: 0.9rem;
+        }
+      }  
+      @media (max-width:991px){
+        .btn-pant{
+          padding: 0.5rem 1.5rem;
+
+        }
+      }  
+      @media (max-width:991px){
+        .polo{
+          display: block;
+
+        }
+      }  
+      @media (max-width:991px){
+        .hero-btn{
+         right:18rem; 
+        }
+      }  
+     
+    
+   
+    }
+}
+    }
+   
+       @media (max-width:689px){
+        .hero-btn{
+          right: 9rem;
+        }
+       }
+       @media (max-width:689px){
+        .company{
+          display: block;
+        }
+       }
+       @media (max-width:689px){
+        .company1{
+          margin: 1rem 2.5rem;
+          text-align: center;
+        }
+       }
+       @media (max-width:689px){
+        .card{
+          margin: 1rem;
+        }
+       }
+       @media (max-width:689px){
+        .onemore{
+          display: block;
+         
+        }
+       }
+       
+       @media (max-width:689px){
+        .fashion{
+          width: 60%;
+          margin-left: 8rem;
+        }
+       }
+       @media (max-width:689px){
+        .shopping{
+          display: block;
+         
+        }
+       }
+       
+       @media (max-width:689px){
+        .shop{
+          width: 60%;
+          margin-left: 8rem;
+         
+        }
+       }
+       @media (max-width:689px){
+        .pants{
+          display: block;
+         
+        }
+       }
+       @media (max-width:689px){
+        .blazer{
+          display: block;
+         
+        }
+       }
+       
+       
