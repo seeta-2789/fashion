@@ -478,9 +478,13 @@ font-size: 0.9rem;
         .hero-btn{
          right:18rem; 
         }
-      }  
+      } 
+      @media (max-width:991px){
+        .card{
+          margin: 1rem;
+        }
+       }
      
-    
    
     }
 }
