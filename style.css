@@ -443,9 +443,7 @@ h3{
       .hero{
         right: 3.5rem;
       }
-    }
-      @media (max-width:991px){
-        .panttext{
+       .panttext{
           margin: 2rem 4rem;
         }
          .panttext h2{
@@ -453,9 +451,7 @@ h3{
         }
          .panttext p{
            font-size: 0.9rem;
-        }
-      }  
-      @media (max-width:991px){
+        } 
         .btn-pant{
           padding: 0.5rem 1.5rem;
         }
@@ -465,12 +461,10 @@ h3{
         .hero-btn{
          right:18rem; 
         }
-      }
-      @media (max-width:991px){
         .card{
           margin: 1rem;
         }
-       }
+      }
    
        @media (max-width:689px){
         .hero-btn{
@@ -483,8 +477,6 @@ h3{
           margin: 1rem 2.5rem;
           text-align: center;
         }
-       }
-       @media (max-width:689px){
         .card{
           margin: 1rem;
         }
@@ -495,8 +487,6 @@ h3{
           width: 60%;
           margin-left: 8rem;
         }
-       }
-       @media (max-width:689px){
         .shopping{
           display: block;
         }
@@ -508,8 +498,6 @@ h3{
           display: block;
          
         }
-       }
-       @media (max-width:689px){
         .blazer{
           display: block;
          
